@@ -1,0 +1,36 @@
+.filter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.filter span {
+  margin-right: 30px;
+}
+
+.filter input {
+  margin-right: 30px;
+}
+
+.btn:not(:last-child) {
+  margin-right: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  padding: 15px;
+}
+
+form input {
+  margin-bottom: 20px;
+}
+
+#add {
+  width: 100px;
+}
+
+thead th:not(:first-child) {
+  cursor: pointer;
+}
